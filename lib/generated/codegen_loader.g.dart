@@ -15,24 +15,46 @@ class CodegenLoader extends AssetLoader{
   }
 
   static const Map<String,dynamic> en = {
-  "name": "Name: ",
-  "age": "Age: ",
-  "phone": "Phone: ",
-  "status": "Status: ",
-  "info_article": "Info about me:",
-  "cats_article": "The best cat breeds in my opinion: ",
-  "random_status_button": "Random status button",
-  "social_media_name": "Cat and programming lovers club"
+  "settings": "Settings",
+  "profile_settings": "Profile Settings",
+  "change_avatar": "Change Avatar",
+  "name": "Name",
+  "notification_settings": "Notification Settings",
+  "notifications": "Notifications",
+  "email_notifications": "Email Notifications",
+  "language_settings": "Language Settings",
+  "language": "Language",
+  "social_media_name": "Social Media Name",
+  "age": "Age",
+  "phone": "Phone",
+  "status": "Status",
+  "random_status_button": "Random Status",
+  "info_article": "Information Article",
+  "cats_article": "Cats Article",
+  "news_feed": "News Feed",
+  "like": "Like",
+  "news_feed_content": "Check out what's new in the cat and programming world!"
 };
 static const Map<String,dynamic> ru = {
-  "name": "Имя: ",
-  "age": "Возраст: ",
-  "phone": "Телефон: ",
-  "status": "Статус: ",
-  "info_article": "Совсем чуток о себе:",
-  "cats_article": "А вот мой топ пород котиков:",
-  "random_status_button": "Кнопка для рандомного статуса",
-  "social_media_name": "Клуб любителей кошек и программирования"
+  "settings": "Настройки",
+  "profile_settings": "Настройки профиля",
+  "change_avatar": "Сменить аватар",
+  "name": "Имя",
+  "notification_settings": "Настройки уведомлений",
+  "notifications": "Уведомления",
+  "email_notifications": "Уведомления по электронной почте",
+  "language_settings": "Настройки языка",
+  "language": "Язык",
+  "social_media_name": "Социальная Сеть",
+  "age": "Возраст",
+  "phone": "Телефон",
+  "status": "Статус",
+  "random_status_button": "Случайный Статус",
+  "info_article": "Информационная статья",
+  "cats_article": "Статья о кошках",
+  "news_feed": "Лента новостей",
+  "like": "Нравится",
+  "news_feed_content": "Смотрите, что нового в мире кошек и программирования!"
 };
 static const Map<String, Map<String,dynamic>> mapLocales = {"en": en, "ru": ru};
 }
